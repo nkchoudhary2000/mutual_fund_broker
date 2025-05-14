@@ -1,0 +1,16 @@
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+button {
+    background-color: #667eea;
+    color: white;
+}
+
+button:hover {
+    background-color: #5a67d8;
+}
+
+.link a {
+    color: #667eea;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mutual Fund Explorer</title>
+    <link rel="stylesheet" href="/static/css/base.css">
+    <link rel="stylesheet" href="/static/css/mutual_funds.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Mutual Fund Explorer</h2>
+        <label for="fund-family">Select Fund Family:</label>
+        <select id="fund-family" onchange="fetchSchemes()">
+            <option value="">-- Select a fund family --</option>
+        </select>
+
+        <div id="schemes">
+            <!-- Scheme results will appear here -->
+        </div>
+
+        <button onclick="goBack()">← Back to Dashboard</button>
+    </div>
+    <script src="/static/js/mutual_funds.js"></script>
+</body>
+</html>
